@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    }
+.box{
+    height:500px;
+    width:400px;
+    position: relative;
+    margin: 6% auto;
+    background: aqua;
+    padding: 5px ;
+   }
+
+.inputs{
+    top: 100px;
+    position: relative;
+    width:100%;
+    transition: .5s;
+}
+
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background: white;
+}
+
+
+.register{
+    position: absolute;
+    height:50px;
+    width: 80%;
+    padding: 10px 10px;
+    left: 40px;
+    bottom: 150px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #f00, #999 );
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.hellopage{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    }
+
+.hellopage h1 {
+    text-align: center;
+    position: relative;
+    top:40%;
+    font-size: 50px; 
+    color: black;
+   }
